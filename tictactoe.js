@@ -20,7 +20,9 @@ function listensForClicksOnCells{
 
 listensForClicksOnCells
 
-function markCell()
+function markCell(){
+  if 
+}
 
 
 function elementContains(id, mark) {
