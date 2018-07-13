@@ -15,7 +15,7 @@ let mark = 'X'
 	
 //create an event listener that works as a function for when players are marking
 function listensForClicksOnCells{
-  $(.cell).click(cell)
+  $(.cell).click(markCell)
   
   
 }	
