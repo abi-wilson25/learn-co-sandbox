@@ -49,6 +49,15 @@ function playerWon () {
   return false
 }
 function resetGame(){
+
   
 }
+unction displayMsg(msg) {
+  
+}
+
+function listenForClickOnMessage() {
+  
+}
+
 
