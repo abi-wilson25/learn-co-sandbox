@@ -14,7 +14,7 @@ let winArr = [
   // top row
 //continue untill all rows are filled
 	
-let mark =	'X'
+let mark = 'X'
 	
 //create an event listener that works as a function for when players are marking
 	
