@@ -52,7 +52,7 @@ function resetGame(){
 
   
 }
-unction displayMsg(msg) {
+function displayMsg(msg) {
   
 }
 
