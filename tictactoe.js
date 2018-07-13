@@ -20,6 +20,8 @@ function listensForClicksOnCells{
 
 listensForClicksOnCells
 
+function markCell()
+
 
 function elementContains(id, mark) {
   return $(id).text() === mark
