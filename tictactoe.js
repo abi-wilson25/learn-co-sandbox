@@ -25,7 +25,7 @@ function markCell(){
   if (!this.innerText) {
     this.innerText = mark
     if (playerWon(mark)){
-      alert((mark, "You won the game"))
+      alert((mark, + "You won the game"))
     }
   mark = (mark === 'X') ? 'O' : 'X'  
   }
