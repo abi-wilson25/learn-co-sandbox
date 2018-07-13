@@ -6,14 +6,15 @@ let winArr = [
   ["#0-1", "#1-1", "#2-1"],
   ["#0-2", "#1-2", "#2-2"],
   ["#0-0", "#1-1", "#2-2"],
-["#2-0", "#1-1", "#0-2"],
+  ["#2-0", "#1-1", "#0-2"],
+
   
   
   
   // top row
 //continue untill all rows are filled
 	
-let mark =	
+let mark =	'X'
 	
 //create an event listener that works as a function for when players are marking
 	
