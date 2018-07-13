@@ -40,7 +40,7 @@ function elementContains(id, mark) {
 // it checks whether a given (either 'x' or 'o') populates all
 // three spots in any given win combination
 function playerWon () {
-  for (let i = ; i < ; i) {
+  for (let i = 0 ; i < ; i++) {
     let winCombo = 
     let won = w
     // checks if elementContains returns true for every id
