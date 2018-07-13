@@ -41,7 +41,9 @@ function elementContains(id, mark) {
 // three spots in any given win combination
 function playerWon () {
   for (let i = 0 ; i < winArr.length; i++) {
-    let winCombo = 
+    let winCombo = winArr[i]
     let won = w
     // checks if elementContains returns true for every id
     if (won) return 
+  }
+}
