@@ -8,17 +8,17 @@ let winArr = [
   ["#0-0", "#1-1", "#2-2"],
   ["#2-0", "#1-1", "#0-2"],
 ]
-
-  
-  
-  
   // top row
 //continue untill all rows are filled
 	
 let mark = 'X'
 	
 //create an event listener that works as a function for when players are marking
-	
+function listenClicksOnCell{
+  $(.cell)
+  
+  
+}	
 function elementContains(id, mark) {
   return $(id).text() === mark
 }
