@@ -21,7 +21,9 @@ function listensForClicksOnCells{
 listensForClicksOnCells
 
 function markCell(){
-  if 
+  if (!this.innerText) {
+    this.innerText 
+  }
 }
 
 
