@@ -45,6 +45,6 @@ function playerWon () {
     let won = winCombo.every(id => elementContains(id, mark))
     // checks if elementContains returns true for every id
     if (won) return true
-  }
+  
 }
 function 
