@@ -42,7 +42,7 @@ function elementContains(id, mark) {
 function playerWon () {
   for (let i = 0 ; i < winArr.length; i++) {
     let winCombo = winArr[i]
-    let won = w
+    let won = winCombo
     // checks if elementContains returns true for every id
     if (won) return 
   }
