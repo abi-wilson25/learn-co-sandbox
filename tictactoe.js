@@ -48,7 +48,7 @@ function playerWon () {
   }
   return false
 }
-function resetTheGame{
+function resetGame(){
   
 }
 
