@@ -23,6 +23,10 @@ listensForClicksOnCells
 function markCell(){
   if (!this.innerText) {
     this.innerText = mark
+    if playerWon(mark){
+      console.log(mark)
+      "You won the game"
+    }
     
   }
 }
