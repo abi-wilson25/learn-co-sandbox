@@ -27,7 +27,7 @@ function markCell(){
     if playerWon(mark){
       console.log(mark, "You won the game")
     }
-    
+  mark = (mark === 'X') ? 'O' : 'X'  
   }
 }
 
