@@ -14,7 +14,7 @@ let winArr = [
 let mark = 'X'
 	
 //create an event listener that works as a function for when players are marking
-function listensForClicksOnCells{
+function listensForClicksOnCells {
   $(.cell).click(markCell)
 }	
 
@@ -24,8 +24,7 @@ function markCell(){
   if (!this.innerText) {
     this.innerText = mark
     if playerWon(mark){
-      console.log(mark)
-      "You won the game"
+      console.log(mark, "You won the game")
     }
     
   }
